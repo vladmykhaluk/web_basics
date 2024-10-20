@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <h1>Моя перша HTML-форма</h1>
+    <form id="myForm" action="https://httpbin.org/get" method="get">
+      <div>
+        <label> Ім'я <input type="name" id="name" name="name" /></label>
+      </div>
+      <br />
+      <div>
+        <label for="date">Дата народження </label>
+        <input type="date" id="date" name="date" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Електронна пошта </label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <br />
+      <div>
+        <label
+          >Повідомлення
+          <textarea id="message" name="message" rows="2" cols="20"></textarea>
+        </label>
+      </div>
+      <br />
+    <!-- <img src="https://picsum.photos/1000/400" <form action="/submit" /> -->
+    <form action="/submit">
+      <fieldset>
+        <legend>Ваші улюблені напої?</legend>
+
+        <label for="coffee">
+          <input type="checkbox" id="coffee" name="drinks" value="coffee" />
+          Кава </label
+        ><br />
+
+        <label for="tea">
+          <input type="checkbox" id="tea" name="drinks" value="tea" />
+          Чай </label
+        ><br />
+
+        <label for="juice">
+          <input type="checkbox" id="juice" name="drinks" value="juice" />
+          Сік </label
+        ><br />
+
+        <label for="water">
+          <input type="checkbox" id="water" name="drinks" value="water" />
+          Вода </label
+        ><br />
+      </fieldset>
+      <fieldset>
+        <legend>Моя національність</legend>
+
+        <label for="ukrainian">
+          <input
+            type="radio"
+            id="ukrainian"
+            name="nationality"
+            value="ukrainian"
+          />
+          Українець </label
+        ><br />
+
+        <label for="polish">
+          <input type="radio" id="polish" name="nationality" value="polish" />
+          Поляк </label
+        ><br />
+
+        <label for="german">
+          <input type="radio" id="german" name="nationality" value="german" />
+          Німець </label
+        ><br />
+
+      </fieldset>
+      <button type="submit" class="submit">Відправити</button>
+      <button type="reset" class="reset">Очистити</button>
+    </form>
+  </body>
+</html>
