@@ -1,0 +1,67 @@
+.uppercase-text {
+    text-transform: uppercase;
+  } /* 1 */
+  
+  .goals-list {
+    color: #ff0000;
+    /* background-color: yellow; */
+    font-style: italic;
+  } /* 2,3 */
+  
+  ol {
+    border: 1px solid red;
+  } /* 4 */
+  
+  #h1 {
+    color: green;
+  } /* 5 */
+  
+  .download-list a[href="file1.pdf"],
+  .download-list a[href="file2.pdf"],
+  .download-list a[href="file5.pdf"] {
+    color: green;
+    font-style: italic;
+  } /* 6 */
+  
+  a {
+    color: violet;
+    text-decoration: none;
+  } /* 7 */
+  
+  ul ul {
+    text-transform: uppercase;
+  } /* 8 */
+  
+  p a {
+    color: magenta;
+    background-color: mistyrose;
+  } /* 9 */
+  
+  .bold {
+    font-weight: bold;
+  } /* 10 */
+  
+  li.bold {
+    text-transform: uppercase;
+  } /* 11 */
+  
+  .blue-border {
+    text-align: right;
+    border: 2px solid blue;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+  } /* 12 */
+  
+  h1#h1 {
+    color: red;
+  } /* 13 */
+  
+  * {
+    box-sizing: border-box;
+  } /* 14 */
+  span {
+    background-color: yellow;
+    display: inline-block;
+  } /* 15 */
+  
