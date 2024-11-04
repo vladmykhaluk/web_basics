@@ -1,4 +1,4 @@
-.uppercase-text {
+  h1 {
     text-transform: uppercase;
   } /* 1 */
   
@@ -16,9 +16,7 @@
     color: green;
   } /* 5 */
   
-  .download-list a[href="file1.pdf"],
-  .download-list a[href="file2.pdf"],
-  .download-list a[href="file5.pdf"] {
+  .download-list a[href$=".pdf"] {
     color: green;
     font-style: italic;
   } /* 6 */
@@ -60,6 +58,7 @@
   * {
     box-sizing: border-box;
   } /* 14 */
+
   span {
     background-color: yellow;
     display: inline-block;
